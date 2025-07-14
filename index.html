@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hannibal - Accueil</title>
+  <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: transparent;">
+  <div class="container px-4">
+    <a class="navbar-brand fw-bold text-uppercase" href="#" style="color: #FF6B00;">Hannibal</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav me-3">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="menuDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Menu 1</a></li>
+            <li><a class="dropdown-item" href="#">Menu 2</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#">Testimonial</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+      <a class="btn btn-warning text-black px-4 rounded-pill" href="#" >Reservation</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero" class="position-relative text-center text-white">
+  <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0, 0, 0, 0.5);"></div>
+  <div class="position-relative d-flex flex-column justify-content-center align-items-center h-100">
+    <h1 class="display-4 fw-bold Orange">Hannibal roi du poulet rôti et grillé</h1>
+    <p class="lead">Le meilleur du poulet rôti au cœur de Tunis</p>
+  </div>
+</section>
+<!-- HISTOIRE -->
+<div class="container-custom">
+<section class="container py-5">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <h1><span class="text-warning">Plongez</span></h1>
+      <h1 class="Title">au cœur de notre histoire</h1>
+      <p class="DescriptionText">Il y a plus de 25 ans, animé par sa passion et son savoir-faire dans la cuisson du poulet rôti et grillé, Mohamed décide d’ouvrir un restaurant à Ariana. Son objectif ? Offrir à chaque Tunisien un lieu où se rencontrent saveurs authentiques, qualité irréprochable et prix accessibles.
+C’est ainsi qu’est née l’enseigne Hannibal, un endroit convivial où le goût rassemble toutes les générations.</p>
+      <a class="btn btn-warning text-dark" href="#">Lire plus</a>
+    </div>
+    <div class="col-12 col-md-6">
+        <img id="ImgHistoire" src="https://images.pexels.com/photos/27680726/pexels-photo-27680726.jpeg" alt="Histoire" class="img-fluid rounded" />
+    </div>
+  </div>
+</section>
+</div>
+
+<!-- BANNIÈRE MANGEZ AVEC VOS YEUX -->
+
+
+<section id ="BanniereYeux"class="position-relative text-center text-white py-5" >
+  <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0, 0, 0, 0.5);"></div>
+  <div class="position-relative py-5">
+    <h3 class="display-5 fw-bold" style ="color:#FF6B00;">Mangez</h3><h3 class="display-5 fw-bold" style ="color:white;">avec vos yeux</h3>
+  </div>
+</section>
+
+
+<!-- MANGEZ AVEC VOS YEUX -->
+
+
+<div class="container-custom">
+<section class="container py-5">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <h1><span class="text-warning">Mangez</span></h1><h1 class="Title">avec vos yeux</h1>
+      <p class="DescriptionText">Il y a plus de 25 ans, animé par sa passion et son savoir-faire dans la cuisson du poulet rôti et grillé, Mohamed décide d’ouvrir un restaurant à Ariana. Son objectif ? Offrir à chaque Tunisien un lieu où se rencontrent saveurs authentiques, qualité irréprochable et prix accessibles.
+C’est ainsi qu’est née l’enseigne Hannibal, un endroit convivial où le goût rassemble toutes les générations.</p>
+      <a class="btn btn-warning text-dark" href="#">Lire plus</a>
+    </div>
+    <div class="col-md-6">
+      <img id="ImgMangezYeux" src="https://media.istockphoto.com/id/480937181/fr/photo/poulet-r%C3%B4ti.webp?a=1&b=1&s=612x612&w=0&k=20&c=3GMGuJSHlUKKho1BG98UTJmEcbW_PL9vk8PecVcviwk=" alt="Histoire" class="img-fluid rounded" />
+    </div>
+  </div>
+</section>
+</div>
+
+<!-- BANNIÈRE CHAÎNE DE RESTAURANTS -->
+<section id="BanniereChaine" class="position-relative text-center text-white py-5">
+  <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0, 0, 0, 0.5);"></div>
+  <div class="position-relative py-5">
+    <h3 class="display-5 fw-bold" style ="color:#FF6B00;">Decouvrez</h3><h3 class="display-5 fw-bold" style ="color:white;">notre chaine de restaurants</h3>
+  </div>
+</section>
+
+<!-- CARROUSEL DES RESTAURANTS -->
+<section id="CarouselMaps" class="container py-5">
+  <div id="carouselRestaurants" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner Padding30">
+
+      <div class="carousel-item active">
+        <div class="d-flex flex-column align-items-center">
+          <div class="col-md-6">
+            <h3 class ="Title Orange" id="TitreCarouselRestaurants">Hannibal Lafayette</h3>
+            <p>Centre-ville, ambiance moderne et service rapide.</p>
+          </div>
+          <div class="col-md-6">
+            <iframe src="https://maps.google.com/maps?q=tunis&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="250" style="border:0;" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="d-flex flex-column align-items-center">
+          <div class="col-md-6">
+            <h3 class="Title Orange">Hannibal Menzah</h3>
+            <p>Un cadre chic avec des grillades savoureuses.</p>
+          </div>
+          <div class="col-md-6">
+            <iframe src="https://maps.google.com/maps?q=tunis&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="250" style="border:0;" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="d-flex flex-column align-items-center">
+          <div class="col-md-6">
+            <h3 class="Title Orange">Hannibal Lac</h3>
+            <p>Vue sur le lac, parfait pour les repas en famille.</p>
+          </div>
+          <div class="col-md-6">
+            <iframe src="https://maps.google.com/maps?q=tunis&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="250" style="border:0;" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="d-flex flex-column align-items-center">
+          <div class="col-md-6">
+            <h3 class="Title Orange">Hannibal Ariana</h3>
+            <p>Ambiance conviviale dans un quartier dynamique.</p>
+          </div>
+          <div class="col-md-6">
+            <iframe src="https://maps.google.com/maps?q=tunis&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="250" style="border:0;" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- FLECHES -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselRestaurants" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+      <span class="visually-hidden">Précédent</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselRestaurants" data-bs-slide="next">
+      <span class="carousel-control-next-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+      <span class="visually-hidden">Suivant</span>
+    </button>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="BanniereContact" class="position-relative text-center text-white py-5">
+  <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0, 0, 0, 0.5);"></div>
+  <div class="position-relative py-5">
+    <h3 class="display-5 fw-bold" style ="color:#FF6B00;">Contactez</h3><h3 class="display-5 fw-bold" style ="color:white;">nous</h3>
+  </div>
+</section>
+
+
+<section class="container py-5 Padding30">
+  <form>
+    <div class="row mb-3">
+      <div class="col-md-6"><input type="text" class="form-control" placeholder="Nom*" required /></div>
+      <div class="col-md-6"><input type="text" class="form-control" placeholder="Prénom*" required /></div>
+    </div>
+    <div class="row mb-3">
+      <div class="col-md-6"><input type="email" class="form-control" placeholder="Email*" required /></div>
+      <div class="col-md-6"><input type="text" class="form-control" placeholder="Objet*" required /></div>
+    </div>
+    <div class="mb-3">
+      <textarea class="form-control" rows="4" placeholder="Votre message*" required></textarea>
+    </div>
+    <a class="btn btn-warning text-black px-4 rounded-pill" href="#" >Envoyer</a>
+  </form>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
